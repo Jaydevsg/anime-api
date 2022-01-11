@@ -1,0 +1,50 @@
+body{
+    background-color: indigo;
+}
+input{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(15, 199, 46);
+    font-size: 20px;
+
+}
+button{
+    width: 30%;
+    background-origin: padding-box;
+    background-color: seagreen;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px solid trasparent;
+    cursor: pointer;  
+   
+}
+.user-list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+.user-container{
+    background: rgb(93, 94, 93);
+    padding:10px;
+    margin: 10px;
+    max-width: 300px ;
+    display:flex;
+    flex-flow:row wrap;
+    border-radius: 10%;
+    box-shadow: 100%; 
+    border-color: slategrey solid;
+}
+.user-avatar{
+    border-radius: 100%;
+    width: 30%;
+    box-shadow: 100%; 
+}
+.user-id{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80%;
+}
